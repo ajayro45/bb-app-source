@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: app
-          image:  ajayro45/blockbuster:latest
+          image:  ajayro45/blockbuster:1.0.0
           imagePullPolicy: Always
           resources:
             requests:
