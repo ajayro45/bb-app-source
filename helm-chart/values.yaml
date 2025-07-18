@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: siddharth67/block-buster-dev:7.5.0
+  repository: ajayro45/blockbuster:4.0.0
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
