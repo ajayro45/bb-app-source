@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: ajayro45/blockbuster:7.0.0 # {"$imagepolicy": "flux-system:8-demo-image-policy"} 
+          image: docker.io/ajayro45/blockbuster:7.0.1 # {"$imagepolicy": "flux-system:8-demo-image-policy"} 
           imagePullPolicy: Always
           resources:
             requests:
